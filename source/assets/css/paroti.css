@@ -2315,7 +2315,7 @@ h6 {
   overflow: hidden;
   overflow-y: auto;
   height: 100%;
-  background-color: var(--paroti-base, #002c33);
+  background-color: var(--paroti-light, #002c33);
   -ms-overflow-style: none;
   scrollbar-width: none;
   padding: 30px 15px;
@@ -2374,7 +2374,7 @@ h6 {
 }
 
 .mobile-menu__list li.current > a {
-  color: #fff;
+  color: #1b0f0f;
 }
 
 .mobile-menu__list > li + li {
@@ -2384,7 +2384,7 @@ h6 {
 .mobile-menu__list > li > a {
   font-weight: 500;
   font-size: 15px;
-  color: var(--paroti-light, #8fa6aa);
+  color: var(--paroti-dark, #8fa6aa);
   display: block;
   line-height: 40px;
 }
@@ -2405,7 +2405,7 @@ h6 {
 .mobile-menu__list > li > ul > li > a {
   font-weight: 500;
   font-size: 15px;
-  color: var(--paroti-light, #8fa6aa);
+  color: var(--paroti-dark, #8fa6aa);
   display: block;
   line-height: 40px;
 }
@@ -2503,7 +2503,7 @@ h6 {
 }
 
 .mobile-nav__contact li a {
-  color: inherit;
+  color: var(--paroti-dark);
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
